@@ -19,3 +19,15 @@ myArr.push(a);
 // tuples
 var myTup: [string,boolean];
 myTup = ['result',true];
+
+// any type
+var an:any;
+an = 1;
+an = '1';
+an = false;
+
+var un: number|string;
+un = 'asdfgb';
+un = 1;
+// un = true;
+
