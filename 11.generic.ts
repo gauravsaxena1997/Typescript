@@ -1,13 +1,9 @@
+import {Person} from './5.classes'
+
 function foo<T>(arg:T): T{
     return arg;
 }
 var a= foo(1);
-
-class Person{
-    constructor(private firstName:string,private lastName:string){
-
-    }
-}
 
 class Manager extends Person{
 
